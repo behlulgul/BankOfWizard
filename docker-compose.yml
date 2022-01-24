@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  postgresql:
+    restart: always
+    image: postgres
+    ports:
+      - "5435:5432"
+    environment:
+      - DEBUG=false
+      - POSTGRES_USER=bankofwizard
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=bankofwizard
+      - PG_TRUST_LOCALNET=true
+    volumes:
+      - bankofwizard_pgdata:/var/lib/postgresql/data
+
+  bankofwizard:
+    image: bankofwizard
+    build:
+      context: .
+      dockerfile: BankOfWizard/Dockerfile
+    ports:
+      - 5000:80
+    depends_on:
+      - postgresql
+# Names our volume
+volumes:
+  bankofwizard_pgdata:

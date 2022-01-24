@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankOfWizard.App", "BankOfWizard.App\BankOfWizard.App.csproj", "{0328F559-6638-42B1-A83C-5DD003A86103}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankOfWizard.Repository", "BankOfWizard.Repository\BankOfWizard.Repository.csproj", "{19773BB0-63E8-477E-8E08-FB1E18EE17E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankOfWizard.Identity", "BankOfWizard.Identity\BankOfWizard.Identity.csproj", "{1AE2E83E-BCB4-4903-A3B1-958A26292362}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankOfWizard.Tests", "BankOfWizardTests\BankOfWizard.Tests.csproj", "{BA6860BC-1AF8-4D5D-9CBE-8C50B955109D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankOfWizard.Domain", "BankOfWizard.Domain\BankOfWizard.Domain.csproj", "{B41B5CFE-4669-4D42-9952-4B8D649B7C6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankOfWizard", "BankOfWizard\BankOfWizard.csproj", "{28BBB4BA-27DF-4A99-81C8-A812B8B35FB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0328F559-6638-42B1-A83C-5DD003A86103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0328F559-6638-42B1-A83C-5DD003A86103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0328F559-6638-42B1-A83C-5DD003A86103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0328F559-6638-42B1-A83C-5DD003A86103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19773BB0-63E8-477E-8E08-FB1E18EE17E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19773BB0-63E8-477E-8E08-FB1E18EE17E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19773BB0-63E8-477E-8E08-FB1E18EE17E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19773BB0-63E8-477E-8E08-FB1E18EE17E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE2E83E-BCB4-4903-A3B1-958A26292362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE2E83E-BCB4-4903-A3B1-958A26292362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE2E83E-BCB4-4903-A3B1-958A26292362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE2E83E-BCB4-4903-A3B1-958A26292362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6860BC-1AF8-4D5D-9CBE-8C50B955109D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6860BC-1AF8-4D5D-9CBE-8C50B955109D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6860BC-1AF8-4D5D-9CBE-8C50B955109D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6860BC-1AF8-4D5D-9CBE-8C50B955109D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41B5CFE-4669-4D42-9952-4B8D649B7C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41B5CFE-4669-4D42-9952-4B8D649B7C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41B5CFE-4669-4D42-9952-4B8D649B7C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41B5CFE-4669-4D42-9952-4B8D649B7C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BBB4BA-27DF-4A99-81C8-A812B8B35FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BBB4BA-27DF-4A99-81C8-A812B8B35FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BBB4BA-27DF-4A99-81C8-A812B8B35FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BBB4BA-27DF-4A99-81C8-A812B8B35FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF6C5AEC-9ABB-4CD9-815B-DE7F3729DA98}
+	EndGlobalSection
+EndGlobal
